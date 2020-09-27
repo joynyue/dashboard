@@ -21,10 +21,6 @@ const menu = (userList, setCurrentUser) => {
 const UserDropdown = (props) => {
   const { userList } = props.userData;
   const { currentUser, setCurrentUser } = props.userState;
-  //   useEffect(() => {
-  //     const initialUser = userList[0];
-  //     setCurrentUser(initialUser);
-  //   }, []);
   // in props.something.currentAssessor
   // whichever is the first user in the dropdown list, make it currentAssessor in parent state
   // on useEffect first render on this component, setCurrentAssessor to first one in list.
